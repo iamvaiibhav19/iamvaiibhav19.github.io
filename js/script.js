@@ -87,8 +87,8 @@ window.addEventListener("scroll", () => {
   } else if (window.pageYOffset == 0) {
     navbar.style.height = "77px";
     navbar.style.lineHeight = "77px";
-    navbar.style.backgroundColor = "#7c00c9";
-    navbar.style.color = "white";
+    // navbar.style.backgroundColor = "#7c00c9";
+    navbar.style.color = "black";
     navbarNav.classList.remove("navBar");
   }
 });

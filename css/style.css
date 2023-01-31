@@ -23,21 +23,21 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #7c00c9;
+  background: #ffffff;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #480274;
+  background: #f1daff;
 }
 
 /* Scrollbar -- end */
 .bg {
-  background-color: #f7f9ff;
+  background-color: #ffffff;
 }
 
 .navbar {
-  color: #fff;
+  color: rgb(0, 0, 0);
   height: 77px;
   line-height: 77px;
   font-weight: 600;
@@ -51,7 +51,7 @@ backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px ); */
 /* border-radius: 10px; */
 /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
-  background-color: #7C00C9;
+  /* background-color: #7C00C9; */
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -95,8 +95,9 @@ backdrop-filter: blur( 4px );
 }
 
 .parallax {
-  background-color: #7c00c9;
+  background-color: #ffffff;
   /* background-image: url(../img/home/page1.jpg); */
+  color: #000;
   background-attachment: fixed;
   height: 110vh;
   background-position: center;
@@ -106,7 +107,7 @@ backdrop-filter: blur( 4px );
 
 .home {
   padding-top: 150px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
@@ -514,7 +515,7 @@ justify-content: center;
 }
 
 .footer {
-  background-color: #7c00c9;
+  background-color: #ffffff;
   /* background-image: url(../img/home/page1.jpg); */
   background-attachment: fixed;
   background-position: center;
@@ -573,8 +574,8 @@ justify-content: center;
 
 .copyright {
   text-align: center;
-  background-color: #7c00c9;
-  color: #fff;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   padding: 10px;
 }
 
@@ -789,7 +790,8 @@ justify-content: center;
 
   .about2-text h2 {
     margin-top: 30px;
-    
-  
   }
+
+  
+  
 }
